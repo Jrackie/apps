@@ -7,12 +7,11 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
+        android:layout_height="wrap_content">
         <ImageView
             android:id="@+id/read_image"
             android:layout_width="match_parent"
-            android:layout_height="560dp"
+            android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:scaleType="fitCenter"
             android:src="#000000" />
@@ -22,12 +21,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#000000"
+        android:layout_centerVertical="true"
         android:gravity="center">
         <TextView
             android:id="@+id/read_loading_page"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
             android:text="13"
             android:textSize="40sp"
             android:textColor="@color/read_text_color" />
@@ -36,7 +36,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
             android:layout_below="@+id/read_loading_page"
             android:text="加载中..."
             android:textSize="25sp"
@@ -47,7 +47,7 @@
             android:layout_width="55dp"
             android:layout_height="55dp"
             android:layout_marginTop="10dp"
-            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
             android:layout_below="@+id/read_loading_text"
             android:src="@drawable/loading"/>
     </RelativeLayout>
