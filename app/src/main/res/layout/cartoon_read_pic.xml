@@ -4,18 +4,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#000000">
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <ImageView
+        <jrackie.libs.widget.DivideImageView
             android:id="@+id/read_image"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_centerInParent="true"
-            android:scaleType="fitCenter"
+            android:scaleType="centerInside"
             android:src="#000000" />
-    </RelativeLayout>
     <RelativeLayout
         android:id="@+id/layout_loading"
         android:layout_width="match_parent"

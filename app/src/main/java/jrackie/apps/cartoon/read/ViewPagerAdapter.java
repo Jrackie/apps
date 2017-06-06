@@ -1,13 +1,10 @@
 package jrackie.apps.cartoon.read;
 
-import android.graphics.Bitmap;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
-import android.util.Log;
 
-import jrackie.libs.config.ServerConfig;
-import jrackie.libs.deviceinfo.ScreenSizeEntity;
+import jrackie.libs.deviceinfor.ScreenSizeEntity;
 import jrackie.libs.imageloader.ImageLoader;
 
 /**
